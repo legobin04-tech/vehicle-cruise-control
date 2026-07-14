@@ -1,0 +1,33 @@
+# MATLAB autosave files
+*.asv
+*.m~
+
+# MATLAB crash dump files
+matlab_crash_dump.*
+
+# MATLAB temporary files
+*.autosave
+*.tmp
+
+# MATLAB preferences
+prefdir/
+
+# MATLAB generated code
+codegen/
+
+# Simulink generated folders
+slprj/
+sfprj/
+
+# Simulink cache files
+*.slxc
+
+# Simulink data dictionary temporary files
+*.sldd.*
+
+# MEX generated files
+*.mex*
+
+# Operating system files
+.DS_Store
+Thumbs.db
