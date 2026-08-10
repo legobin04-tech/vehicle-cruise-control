@@ -39,3 +39,9 @@ v_eq = sqrt(2 * (Ft - Fr) / (rho * Cd * A_front));
 
 fprintf('Final velocity: %.2f m/s\n', v(end));
 fprintf('Equilibrium velocity: %.2f m/s\n', v_eq);
+
+% Confirm final resistance
+Fd_final = 0.5 * rho * Cd * A_front * v(end)^2;
+Fnet_final = Ft - Fd_final - Fr;
+
+fprintf('Final net force: %.2f N\n', Fnet_final);
