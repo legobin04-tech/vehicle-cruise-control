@@ -45,3 +45,5 @@ Fd_final = 0.5 * rho * Cd * A_front * v(end)^2;
 Fnet_final = Ft - Fd_final - Fr;
 
 fprintf('Final net force: %.2f N\n', Fnet_final);
+
+
