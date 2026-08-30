@@ -72,12 +72,14 @@ $$
 m\dot{v}=F_{\mathrm{throttle}}-F_{\mathrm{brake}}-F_{\mathrm{aero}}-F_{\mathrm{roll}}-F_{\mathrm{grade}}
 $$
 
-- 공기저항: $F_{\mathrm{aero}}=\frac{1}{2}\rho C_d A v^2$
+- 공기저항: $F_{\mathrm{aero}}=\frac{1}{2}\rho C_d A\,v|v|$
 - 구름저항: $F_{\mathrm{roll}}=C_{rr}mg$
 - 경사저항: $F_{\mathrm{grade}}=mg\sin\theta$
 - PID 제어: 속도오차로부터 구동·제동 명령 계산
 - 액추에이터: 제어력을 스로틀과 브레이크로 분리하고 ±4000 N 범위 적용
 - Anti-windup: 출력 포화 시 clamping 적용
+
+$v|v|$는 항력의 크기와 속도 방향을 함께 보존합니다. 따라서 위 운동방정식의 $-F_{\mathrm{aero}}$는 전진과 후진 모두에서 차량의 운동 반대 방향으로 작용합니다.
 
 ## 8주간의 개발 과정
 

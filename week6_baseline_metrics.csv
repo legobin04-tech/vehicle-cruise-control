@@ -1,2 +1,0 @@
-min_speed_uphill,max_speed_downhill,min_speed_return,rmse_disturbance,max_throttle,max_brake,final_speed,final_error,Var9,Var10_1,Var10_2,Var10_3,Var10_4,Var10_5,Var10_6,Var10_7,Var10_8
-28.3126998419808,33.3974404322213,28.836973860954,1.47261448573844,1930.56282425753,821.310818665244,29.9221693125803,0.0778306874196701,VariableNames,MinSpeedUphill,MaxSpeedDownhill,MinSpeedReturn,RMSE_Disturbance,MaxThrottle,MaxBrake,FinalSpeed,FinalError
